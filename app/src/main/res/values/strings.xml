@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Soccer Counter</string>
+    <string name="Title">Welcome to your Soccer Counter App!</string>
+    <string name="Question">Please choose your Teams:</string>
+    <string name="TeamA">Home Team</string>
+    <string name="TeamB">Away Team</string>
+    <string name="StartGame">Start Game</string>
+    <string name="HintTeamA">Choose Team A</string>
+    <string name="HintTeamB">Choose Team B</string>
+    <string-array name="first_german_league">
+        <item>FC Bayern</item>
+        <item>BVB 09</item>
+        <item>Hertha BSC</item>
+        <item>Leverkusen</item>
+        <item>VfL Wolfsburg</item>
+        <item>Hamburg</item>
+        <item>Ingolstadt</item>
+        <item>FC Augsburg</item>
+        <item>Hoffenheim</item>
+        <item>RB Leipzig</item>
+        <item>Darmstadt 98</item>
+        <item>1. FC Köln</item>
+        <item>Schalke</item>
+        <item>Mainz 05</item>
+        <item>Freiburg</item>
+        <item>Werder Bremen</item>
+        <item>Eintracht Frankfurt</item>
+        <item>Mönchengladbach</item>
+    </string-array>
+    <string name="CounterIni">0</string>
+    <string name="Goal">Goal</string>
+    <string name="Foul">Foul</string>
+    <string name="Card">Card</string>
+    <string name="ThrowIn">Throw-In</string>
+    <string name="Corner">Corner</string>
+    <string name="Statistics">Statistics</string>
+    <string name="Start">Start Game</string>
+    <string name="Over">"And it is over!"</string>
+    <string name="EndGame">Reset Game</string>
+    <string name="StatisticHeadline">Game Overview</string>
+    <string name="ReturnGame">Back</string>
+    <string name="Time">90:00</string>
+</resources>

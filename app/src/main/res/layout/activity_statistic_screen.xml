@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.soccercounter.StatisticScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            style="@style/AppTitle"
+            android:id="@+id/textViewS1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/StatisticHeadline"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS1">
+            <TextView
+                android:id="@+id/TeamHome"
+                style="@style/Team.weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TeamA" />
+
+            <TextView
+                android:id="@+id/TeamAway"
+                style="@style/Team.weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TeamB" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewS2"
+            style="@style/AppTitle.Question.small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Goal"
+            android:layout_below="@id/LinearLayout1"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS2">
+            <TextView
+                android:id="@+id/team_a_score_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+            <TextView
+                android:id="@+id/team_b_score_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewS3"
+            style="@style/AppTitle.Question.small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ThrowIn"
+            android:layout_below="@id/LinearLayout2"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS3">
+            <TextView
+                android:id="@+id/team_a_throwIn_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+            <TextView
+                android:id="@+id/team_b_throwIn_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+        </LinearLayout>
+        <TextView
+        android:id="@+id/textViewS4"
+        style="@style/AppTitle.Question.small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Corner"
+        android:layout_below="@id/LinearLayout3"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS4">
+            <TextView
+                android:id="@+id/team_a_corner_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+            <TextView
+                android:id="@+id/team_b_corner_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewS5"
+            style="@style/AppTitle.Question.small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Foul"
+            android:layout_below="@id/LinearLayout4"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS5">
+            <TextView
+                android:id="@+id/team_a_foul_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+            <TextView
+                android:id="@+id/team_b_foul_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewS6"
+            style="@style/AppTitle.Question.small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Card"
+            android:layout_below="@id/LinearLayout5"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS6">
+            <TextView
+                android:id="@+id/team_a_card_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+            <TextView
+                android:id="@+id/team_b_card_statistic"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/CounterIni" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewS7"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@id/LinearLayout6"
+            android:layout_marginTop="16dp"/>
+        <LinearLayout
+            android:id="@+id/LinearLayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_below="@id/textViewS7">
+            <Button
+                android:id="@+id/button_return_game"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ReturnGame"
+                android:onClick="ReturnGameOnClick"/>
+            <Button
+                android:id="@+id/button_end_game"
+                style="@style/ScoreView.small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/EndGame"
+                android:onClick="EndGameOnClick"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</ScrollView>
